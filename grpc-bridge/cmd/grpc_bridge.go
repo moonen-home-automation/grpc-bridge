@@ -13,7 +13,7 @@ import (
 func main() {
 	log := hclog.Default()
 
-	_, err := go_hasocket.NewApp("ws://192.168.4.100:8123/api/websocket", os.Getenv("HA_TOKEN"))
+	_, err := go_hasocket.NewApp("ws://supervisor/core/websocket", os.Getenv("SUPERVISOR_TOKEN"))
 	if err != nil {
 		log.Error("Hass client error", "error", err)
 		os.Exit(1)
