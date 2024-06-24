@@ -9,4 +9,5 @@ on:
 
 jobs:
   workflows:
+    # yamllint disable-line rule:line-length
     uses: moonen-home-automation/workflows/.github/workflows/release-drafter.yaml@main
