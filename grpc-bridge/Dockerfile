@@ -10,9 +10,8 @@ EXPOSE 9091
 RUN go build ./cmd/grpc_bridge.go
 
 #Deploy stage
-ARG BUILD_FROM=ghcr.io/hassio-addons/ubuntu-base:10.0.1
 # hadolint ignore=DL3006
-FROM ${BUILD_FROM}
+FROM ghcr.io/hassio-addons/ubuntu-base:10.0.1
 
 WORKDIR /app
 
