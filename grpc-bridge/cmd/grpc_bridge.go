@@ -30,7 +30,7 @@ func main() {
 
 	l, err := net.Listen("tcp", ":9091")
 	if err != nil {
-		log.Error("Unable to listen", "error", err)
+		log.Error("Error starting listener", "error", err)
 		os.Exit(1)
 	}
 	log.Info("Started listening", "port", "9091")
