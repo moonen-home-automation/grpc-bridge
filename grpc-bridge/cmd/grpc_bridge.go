@@ -33,7 +33,7 @@ func main() {
 		log.Error("Error starting listener", "error", err)
 		os.Exit(1)
 	}
-	log.Info("Started listening", "port", "9091")
+	log.Info("Listener started", "port", "9091")
 
 	err = gs.Serve(l)
 	if err != nil {
