@@ -15,7 +15,7 @@ func main() {
 
 	_, err := go_hasocket.NewApp("ws://supervisor/core/websocket", os.Getenv("SUPERVISOR_TOKEN"))
 	if err != nil {
-		log.Error("Hass client error", "error", err)
+		log.Error("Error getting hass client", "error", err)
 		os.Exit(1)
 	}
 	log.Info("Initialized new hass app")
