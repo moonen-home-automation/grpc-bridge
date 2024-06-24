@@ -1,6 +1,7 @@
 ---
 name: CI
 
+# yamllint disable-line rule:truthy
 on:
   push:
   pull_request:
@@ -12,4 +13,4 @@ on:
 
 jobs:
   workflows:
-    uses: hassio-addons/workflows/.github/workflows/addon-ci.yaml@main
+    uses: moonen-home-automation/workflows/.github/workflows/addon-ci.yaml@main
