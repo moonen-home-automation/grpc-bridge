@@ -8,8 +8,8 @@
   "postUpdateOptions": ["gomodTidy", "gomodUpdateImportPaths"],
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true,
+      "matchManagers": ["gomod"],
+      "matchDepTypes": ["indirect"],
       "enabled": true
     }
   ]
