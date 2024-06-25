@@ -67,4 +67,4 @@ License can be found [here][license]
 [rickmoonex]: https://github.com/rickmoonex
 [semver]: https://semver.org/spec/v2.0.0.html
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=f450e059-grpc-bridge&repository_url=https%3A%2F%2Fgithub.com%2Fmoonen-home-automation%2Frepository
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=0ed99dab_grpc-bridge&repository_url=https%3A%2F%2Fgithub.com%2Fmoonen-home-automation%2Frepository
