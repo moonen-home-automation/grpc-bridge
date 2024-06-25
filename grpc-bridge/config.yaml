@@ -1,7 +1,7 @@
 ---
 name: "gRPC Bridge"
 # yamllint disable-line rule:line-length
-description: "Service that acts as a bridge between Home Assistant and other services. Translating gRPC calls into WebSocket commands."
+description: "Use gRPC calls to control and react to Home Assistant events, entities and more"
 version: dev
 url: https://github.com/moonen-home-automation/grpc-bridge
 slug: "grpc-bridge"
