@@ -2,13 +2,25 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "rebaseWhen": "behind-base-branch",
   "dependencyDashboard": true,
-  "labels": ["dependencies", "no-stale"],
+  "labels": [
+    "dependencies",
+    "no-stale"
+  ],
   "commitMessagePrefix": "⬆️",
   "commitMessageTopic": "{{depName}}",
+  "postUpdateOptions": [
+    "gomodTidy",
+    "gomodUpdateImportPaths"
+  ],
   "packageRules": [
     {
-      "matchManagers": ["gomod"],
-      "matchUpdateTypes": ["minor", "patch"]
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "automerge": true
     }
   ]
 }
