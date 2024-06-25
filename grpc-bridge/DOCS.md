@@ -13,11 +13,13 @@ The installation of this addon is pretty straightforward and not different in co
    Assistant instance.
 
    [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+
 2. Click the "Install" button to install the add-on.
 3. Start the "gRPC Bridge" add-on.
 4. Check the logs of "gRPC Bridge" to see if everything went well.
 
 ### Manual
+
 1. Navigate to the Add-on Store of your Home Assistant instance. **Settings**->**Add-ons**->**Add-on Store**
 2. Add the following repository https://github.com/moonen-home-automation/repository by clicking the hamburger menu at the top-right and clicking **Repositories**.
 3. Search for the **gRPC Bridge** addon in the addon store and click it.
