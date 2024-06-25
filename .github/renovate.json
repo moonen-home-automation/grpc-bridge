@@ -6,6 +6,11 @@
   "commitMessagePrefix": "⬆️",
   "commitMessageTopic": "{{depName}}",
   "postUpdateOptions": ["gomodTidy", "gomodUpdateImportPaths"],
+  "customEnvVariables": {
+    "GOPRIVATE": "github.com/some-org,github.com/some-other-org,gitlab.com/some-org",
+    "GONOSUMDB": "github.com/some-org,github.com/some-other-org,gitlab.com/some-org",
+    "GONOPROXY": "github.com/some-org,github.com/some-other-org,gitlab.com/some-org"
+  },
   "packageRules": [
     {
       "matchManagers": ["gomod"],
