@@ -1,5 +1,5 @@
 # Build stage
-FROM golang:1.22.4-bullseye as BuildStage
+FROM golang:1.23.2-bullseye as BuildStage
 
 WORKDIR /app
 
